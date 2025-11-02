@@ -63,14 +63,11 @@ result = num1 + num2
 
 print(result)  # print the result
 ```
---
 
 ## 💬 Why Use Comments?
 - Makes your code easier to understand.
 - Helps others (and your future self) read your code.
 - Useful for debugging or disabling temporary code.
-
---
 
 ## 🚫 Common Mistakes
 
