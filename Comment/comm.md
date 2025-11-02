@@ -63,6 +63,7 @@ result = num1 + num2
 
 print(result)  # print the result
 ```
+---
 
 💬 Why Use Comments?
 - Makes your code easier to understand.
