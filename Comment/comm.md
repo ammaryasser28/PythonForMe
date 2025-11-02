@@ -14,24 +14,20 @@ Comments **are not executed**, they are just for humans to read.
 ## 🧠 Types of Comments in Python
 
 ### 1. 🟢 Single-line Comment
-Single-line comments start with the `#` symbol.  
-Everything after `#` on that line will be ignored by Python.
+- Single-line comments start with the `#` symbol.  
+- Everything after `#` on that line will be ignored by Python.
 
 ```python
 # This is a comment explaining the next line
 print("Hello Python")  # You can also write a comment at the end of a line
 ```
 ✅ Notes:
-
-Anything after # on the same line won’t be executed.
-
-You can use comments anywhere in your code.
+- Anything after # on the same line won’t be executed.
+- You can use comments anywhere in your code.
 
 2. 🟣 Multi-line Comments
-
-Python doesn’t have a specific syntax for multi-line comments,
-
-but you can achieve the same effect in two ways 👇
+- Python doesn’t have a specific syntax for multi-line comments,
+- but you can achieve the same effect in two ways 👇
 
 Method 1️⃣ — Using # on each line:
 ```
@@ -40,10 +36,8 @@ Method 1️⃣ — Using # on each line:
 # This is the third line
 ```
 Method 2️⃣ — Using Triple Quotes (''' or """)
-
-You can use triple quotes to write multi-line comments.
-
-This is especially useful for long explanations or documentation.
+- You can use triple quotes to write multi-line comments.
+- This is especially useful for long explanations or documentation.
 ```
 """
 This is an example of
@@ -54,10 +48,8 @@ print("Python is awesome!")
 ```
 
 ⚠️ Note:
-
-If the triple quotes are not used as a docstring (inside a function or class),
-
-Python will simply ignore them — just like a comment.
+- If the triple quotes are not used as a docstring (inside a function or class),
+- Python will simply ignore them — just like a comment.
 
 🧩 Practical Example
 ```
@@ -73,12 +65,9 @@ print(result)  # print the result
 ```
 
 💬 Why Use Comments?
-
-Makes your code easier to understand.
-
-Helps others (and your future self) read your code.
-
-Useful for debugging or disabling temporary code.
+- Makes your code easier to understand.
+- Helps others (and your future self) read your code.
+- Useful for debugging or disabling temporary code.
 
 🚫 Common Mistakes
 
