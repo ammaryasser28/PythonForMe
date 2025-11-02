@@ -25,7 +25,7 @@ print("Hello Python")  # You can also write a comment at the end of a line
 - Anything after # on the same line won’t be executed.
 - You can use comments anywhere in your code.
 
-2. 🟣 Multi-line Comments
+### 2. 🟣 Multi-line Comments
 - Python doesn’t have a specific syntax for multi-line comments,
 - but you can achieve the same effect in two ways 👇
 
