@@ -85,7 +85,6 @@ print("Hi")  # Correct
 This will cause an error
 print("Hi")
 ```
----
 
 ## 🧾 Comments vs Docstrings
 | Feature             | Comments           | Docstrings                    |
