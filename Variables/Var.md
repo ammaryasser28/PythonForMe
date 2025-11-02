@@ -114,3 +114,23 @@ tp = 150.75
 first_name = "Osama"
 ```
 
+## Common Mistakes
+❌ Forgetting quotes around text:
+```
+name = Amr  # Wrong
+```
+❌ Using invalid characters:
+```
+user-name = "Amr"  # Wrong
+```
+❌ Starting with a number:
+```
+1st_name = "Amr"  # Wrong
+```
+
+## 📘 Summary
+- Variables are used to store data values.
+- Use = to assign values.
+- Variable names are case-sensitive and must follow certain rules.
+- You can reassign, check types, and use meaningful names for clarity.
+- Follow snake_case naming for clean and readable code.
