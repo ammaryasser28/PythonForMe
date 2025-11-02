@@ -85,7 +85,7 @@ print("Hi")  # Correct
 This will cause an error
 print("Hi")
 ```
-🧾 Comments vs Docstrings
+## 🧾 Comments vs Docstrings
 | Feature             | Comments           | Docstrings                    |
 | ------------------- | ------------------ | ----------------------------- |
 | Purpose             | Explain code logic | Document functions or classes |
