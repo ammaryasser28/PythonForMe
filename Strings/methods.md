@@ -9,7 +9,7 @@ They return **new strings** instead.
 
 ## 🧱 Basic String Methods
 
-### 🔹 `upper()`
+### 🔹 upper()
 Converts all characters to uppercase.
 
 ```python
@@ -173,7 +173,7 @@ True
 True
 ```
 
-### 🔹 `zfill(width)`
+### 🔹 zfill(width)
 Adds **leading zeros** to the string until it reaches the given length.
 ```python
 num = "50"
@@ -184,7 +184,7 @@ print(num.zfill(5))
 00050
 ```
 
-###🔹 center(width, char)
+### 🔹 center(width, char)
 Centers the string between a certain number of characters.
 ```python
 name = "Python"
@@ -195,7 +195,7 @@ print(name.center(11, "-"))
 ---Python---
 ```
 
-###🔹 rjust(width, char) and ljust(width, char)
+### 🔹 rjust(width, char) and ljust(width, char)
 - rjust() → Aligns text to the right
 - ljust() → Aligns text to the left
 ```python
@@ -209,7 +209,7 @@ print(text.ljust(6, "*"))
 Hi****
 ```
 
-###🔹 splitlines()
+### 🔹 splitlines()
 Splits a multi-line string into a list.
 ```python
 text = """Hello
@@ -222,7 +222,7 @@ print(text.splitlines())
 ['Hello', 'World', 'Python']
 ```
 
-###🔹 expandtabs(size)
+### 🔹 expandtabs(size)
 Controls how many spaces a tab \t is equal to.
 ```python
 text = "Hello\tPython"
@@ -233,28 +233,28 @@ print(text.expandtabs(10))
 Hello     Python
 ```
 
-###🔹 istitle()
+### 🔹 istitle()
 Returns True if each word is capitalized.
 ```python
 print("Hello World".istitle())  # True
 print("hello world".istitle())  # False
 ```
 
-###🔹 isspace()
+### 🔹 isspace()
 Returns True if the string contains only spaces.
 ```python
 print("   ".isspace())  # True
 print(" A ".isspace())  # False
 ```
 
-###🔹 islower()
+### 🔹 islower()
 Returns True if all characters are lowercase.
 ```python
 print("python".islower())  # True
 print("Python".islower())  # False
 ```
 
-###🔹 isidentifier()
+### 🔹 isidentifier()
 Checks if a string can be used as a valid variable name.
 ```python
 print("name".isidentifier())   # True
