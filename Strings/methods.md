@@ -120,7 +120,7 @@ print(text.count("python"))
 2
 ```
 
-###🔹 find() and index()
+### 🔹 find() and index()
 Find the position of a substring in a string.
 ```python
 text = "I love Python"
@@ -148,7 +148,7 @@ print(name.startswith("Python"))  # True
 print(name.endswith("ing"))       # True
 ```
 
-###🔹 swapcase()
+### 🔹 swapcase()
 Switches uppercase letters to lowercase and vice versa.
 ```python
 text = "PyThOn"
