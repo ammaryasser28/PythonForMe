@@ -22,7 +22,7 @@ name = "Python"
 🔹 Accessing Characters
 
 You can access any character by its index using square brackets [].
-```
+```python
 name = "Python"
 
 print(name[0])  # P
@@ -31,7 +31,7 @@ print(name[-1]) # n (last character)
 print(name[-2]) # o
 ```
 🖥️ Output:
-```
+```python
 P
 y
 n
@@ -40,26 +40,26 @@ o
 
 ## ✂️ String Slicing
 Slicing means taking a part of a string (substring) using the format:
-```
+```python
 string[start:end]
 ```
 - start → the index where slicing begins (included)
 - end → the index where slicing stops (excluded)
 
 Example:
-```
+```python
 name = "Python"
 print(name[0:4])  # Pyth
 ```
 🖥️ Output:
-```
+```python
 Pyth
 ```
 
 🔸 Omitting Start or End
 
 If you leave out the start or end index, Python uses defaults:
-```
+```python
 name = "Python"
 
 print(name[:4])   # from start to index 3 → Pyth
@@ -67,7 +67,7 @@ print(name[2:])   # from index 2 to the end → thon
 print(name[:])    # entire string → Python
 ```
 🖥️ Output:
-```
+```python
 Pyth
 thon
 Python
@@ -76,14 +76,14 @@ Python
 🔹 Using Negative Indexes
 
 You can slice from the end using negative indexes:
-```
+```python
 name = "Python"
 
 print(name[-3:])   # hon
 print(name[:-2])   # Pytho
 ```
 🖥️ Output:
-```
+```python
 hon
 Pytho
 ```
@@ -91,18 +91,18 @@ Pytho
 🔸 Adding a Step Value
 
 You can also add a step (the third value) to skip characters:
-```
+```python
 string[start:end:step]
 ```
 Example:
-```
+```python
 name = "Python"
 
 print(name[0:6:2])   # Pto
 print(name[::-1])    # Reverse string → nohtyP
 ```
 🖥️ Output:
-```
+```python
 Pto
 nohtyP
 ```
