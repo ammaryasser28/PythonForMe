@@ -22,7 +22,7 @@ a multi-line
 string."""
 ```
 🖥️ Output:
-```
+```python
 This is
 a multi-line
 string.
