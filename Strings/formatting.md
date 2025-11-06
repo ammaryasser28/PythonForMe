@@ -90,7 +90,7 @@ print(f"|{'Python':>10}|")  # Right
 | `:<10` | Left align in width 10  | `"{:<10}".format("Hi")`    | `Hi        ` |
 | `:^10` | Center align            | `"{:^10}".format("Hi")`    | `    Hi    ` |
 
-### 🧾 Summary Table
+## 🧾 Summary Table
 | Method            | Usage                     | Example                   | Output                  | Notes                             |
 | ----------------- | ------------------------- | ------------------------- | ----------------------- | --------------------------------- |
 | `+` Concatenation | Join strings manually     | `"Hi " + name`            | `Hi Amr`                | Must convert numbers with `str()` |
