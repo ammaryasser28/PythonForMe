@@ -53,5 +53,27 @@ print(a + b)     # (1, 2, 3, 4)
 print(a * 2)     # (1, 2, 1, 2)
 ```
 
+## 📦 Single Item Tuple Syntax
+To create a tuple with one element, you must add a comma:
+```python
+x = (5,)   # Valid tuple
+y = (5)    # Not a tuple → just a number
+```
+
+## 🧾 Summary Table
+| Topic             | Description          | Example        | Result                   |
+| ----------------- | -------------------- | -------------- | ------------------------ |
+| Tuple Creation    | Use `()`             | `t = (1,2,3)`  | `(1,2,3)`                |
+| Single Item Tuple | Must end with comma  | `t = (5,)`     | `(5,)`                   |
+| Access Item       | Indexing             | `t[0]`         | First element            |
+| Slice Tuple       | `tuple[start:end]`   | `t[1:3]`       | New sliced tuple         |
+| Immutable         | Cannot modify values | `t[1] = 10`    | Error                    |
+| Convert to List   | To modify            | `list(t)`      | Editable version         |
+| Concatenation     | `+`                  | `(1,)+(2,)`    | `(1,2)`                  |
+| Repeat Tuple      | `*`                  | `(1,2)*2`      | `(1,2,1,2)`              |
+| `count(x)`        | Count value          | `t.count(2)`   | How many times 2 appears |
+| `index(x)`        | Find value index     | `t.index("A")` | Index of "A"             |
+
+
 
 
