@@ -27,7 +27,7 @@ Common Modes:
 ##  🔹 2. Reading a File
 - 👉 read()
 Reads the whole file as one string.
-```
+```python
 file = open("test.txt", "r")
 content = file.read()
 print(content)
@@ -36,7 +36,7 @@ file.close()
 
 - 👉 readline()
 Reads one line at a time.
-```
+```python
 file = open("test.txt", "r")
 line = file.readline()
 print(line)
@@ -45,7 +45,7 @@ file.close()
 
 - 👉 readlines()
 Reads all lines and returns them as a list.
-```
+```python
 file = open("test.txt", "r")
 lines = file.readlines()
 print(lines)
@@ -54,7 +54,7 @@ file.close()
 
 ## 🔹 3. Best Practice: Using with
 Using with automatically closes the file for you.
-```
+```python
 with open("test.txt", "r") as file:
     content = file.read()
     print(content)
@@ -62,20 +62,20 @@ with open("test.txt", "r") as file:
 
 ## 🔹 4. Looping Through File Lines
 Using a loop to read line-by-line:
-```
+```python
 with open("data.txt", "r") as f:
     for line in f:
         print(line.strip())
 ```
 
 ## 🔹 5. Reading Binary Files (images, videos, etc.)
-```
+```python
 with open("image.png", "rb") as file:
     data = file.read()
 ```
 
 ## 🔹 6. File Exists? (Optional Trick)
-```
+```python
 import os
 
 if os.path.exists("file.txt"):
