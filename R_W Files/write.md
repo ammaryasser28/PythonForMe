@@ -32,7 +32,7 @@ file.write("Writing files is easy.\n")
 file.close()
 ```
 🖥️ Result in example.txt:
-```
+```python
 Hello, Python!
 Writing files is easy.
 ```
@@ -40,24 +40,24 @@ Writing files is easy.
 
 ## 🧩 Using with Statement (Recommended)
 The with statement automatically closes the file after writing.
-```
+```python
 with open("example.txt", "w") as file:
     file.write("Python is powerful.\n")
     file.write("It makes file handling easy.\n")
 ```
 🖥️ Result:
-```
+```python
 Python is powerful.
 It makes file handling easy.
 ```
 
 ## 🧩 Appending to a File
-```
+```python
 with open("example.txt", "a") as file:
     file.write("Appending a new line.\n")
 ```
 🖥️ Result (example.txt now contains):
-```
+```python
 Python is powerful.
 It makes file handling easy.
 Appending a new line.
@@ -65,14 +65,14 @@ Appending a new line.
 
 ## 🧩 Writing Multiple Lines
 You can write a list of strings using writelines():
-```
+```python
 lines = ["Line 1\n", "Line 2\n", "Line 3\n"]
 
 with open("example.txt", "w") as file:
     file.writelines(lines)
 ```
 🖥️ Result:
-```
+```python
 Line 1
 Line 2
 Line 3
