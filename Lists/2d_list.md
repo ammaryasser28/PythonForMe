@@ -17,34 +17,34 @@ matrix = [
 - Use two indexes:
 - First index → Row
 - Second index → Column
-```
+```python
 matrix[0][1]
 ```
 🖥️ Output:
-```
+```python
 2
 ```
 
 ## 🔄 Looping Through a 2D List
 - 1️⃣ Loop Through Rows
-```
+```python
 for row in matrix:
     print(row)
 ```
 - 2️⃣ Loop Through All Elements
-```
+```python
 for row in matrix:
     for item in row:
         print(item)
 ```
 
 ## ✏️ Editing Values
-```
+```python
 matrix[1][2] = 99
 print(matrix)
 ```
 🖥️ Output:
-```
+```python
 [
  [1, 2, 3],
  [4, 5, 99],
