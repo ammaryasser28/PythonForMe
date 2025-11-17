@@ -20,7 +20,7 @@ for i in range(3):
         print(i, j)
 ```
 ▶️ Output
-```
+```python
 0 0
 0 1
 1 0
@@ -34,7 +34,7 @@ for i in range(3):
 Controls rows, cycles, or main structure.
 - Inner Loop
 Controls columns, repeated tasks, or nested structure.
-```
+```python
 Outer Loop → i = 0
     Inner Loop → j = 0, 1, 2...
 
